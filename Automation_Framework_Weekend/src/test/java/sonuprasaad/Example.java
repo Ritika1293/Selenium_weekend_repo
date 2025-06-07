@@ -8,5 +8,7 @@ public class Example {
 	public void test()
 	{
 		Reporter.log("Fork has been added",true);
+		Reporter.log("Fork has been added again",true);
+		
 	}
 }
