@@ -1,6 +1,7 @@
 package Ritika;
 
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -25,6 +26,7 @@ public class Ritika_01 {
 			Assert.assertEquals(driver.getCurrentUrl(), "https://demowebshop.tricentis.");
 			test.log(Status.PASS, "Git Hub testing");
 			test.log(Status.PASS, "Git Hub testing");
+			Reporter.log("Fork has been added",true);
 		}
 
 	}
