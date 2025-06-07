@@ -20,6 +20,7 @@ public class TC_HMS_001_TEST extends BaseClass
 		home.getBookLink().click();
 		Assert.assertEquals(driver.getCurrentUrl(), "https://demowebshop.tricentis.");
 		test.log(Status.PASS, "BOOKS PAGE IS DISPLAYED");
+		test.log(Status.PASS, "BOOKS PAGE IS DISPLAYED");
 	}
 
 }
